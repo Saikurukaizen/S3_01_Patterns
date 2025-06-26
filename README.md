@@ -28,14 +28,9 @@ Aquí se encuentra varios ejercicios sencillos que muestra varios patrones de di
 - Introduce el siguiente comando:
 
 ```bash
-git clone 
-- 
 
-## ▶️ Ejecución
-- Instrucciones para la ejecución del proyecto una vez instalada.
-- 
+git clone https://github.com/Saikurukaizen/S3_01_Patterns
 
-## 🌐 Despliegue
-- PHP installed on your development environment (PHP 7.4+ recommended, PHP 8.1.10 used)
-- A local server like XAMPP, MAMP, or LAMP to run PHP scripts
+```
 
+- Revisa los contenidos de los ejercicios
