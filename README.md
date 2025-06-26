@@ -16,7 +16,7 @@ Aquí se encuentra varios ejercicios sencillos que muestra varios patrones de di
 
 ## 🛠️ Tecnologías utilizadas
 - Laragon v.6.0 para el servidor local
-- PHP 8.0
+- PHP 8.3
 - IDE: Visual Studio Code
 - Git & GitHub
 
@@ -25,7 +25,10 @@ Aquí se encuentra varios ejercicios sencillos que muestra varios patrones de di
 - 
 
 ## 🛠️ Instalación
-- Pasos para la instalación del proyecto en entorno local.
+- Introduce el siguiente comando:
+
+```bash
+git clone 
 - 
 
 ## ▶️ Ejecución
