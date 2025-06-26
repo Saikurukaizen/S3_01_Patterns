@@ -7,7 +7,7 @@ require_once 'llavesCoche.php';
 require_once 'transportCard.php';
 require_once 'smartphone.php';
 
-class PuertaDeSalida{
+class Persona{
     private Cartera $cartera;
     private LlavesCasa $llavesCasa;
     private Smartphone $smartphone;
@@ -21,17 +21,18 @@ class PuertaDeSalida{
         Smartphone $smartphone, 
         LlavesCoche $llavesCoche, 
         TransportCard $tarjetaTransporte
-        )
-    {
-        $this->inventario = [$cartera, $llavesCasa, $smartphone, $llavesCoche, $tarjetaTransporte];
-    }
-        
+        ){}
     
-    public function mostrarMensaje(): void{
-        echo 'Lo tengo todo: ' . PHP_EOL;
-        foreach($this->inventario as $objeto){
-            $objeto->mostrarMensaje() . PHP_EOL;
-        }
+    public function salirDeCasa(): void
+    {
+        echo $this->cartera->usar() . "\n";
+        echo $this->llavesDeCasa->usar() . "\n";
+        echo $this->tarjetaTransporte->usar() . "\n";
+        echo $this->smartphone->usar() . "\n";
+        echo "Listo para salir!\n";
     }
+
+$persona = new Persona(new Cartera, new LlavesCasa, new TransportCard, new Smartphone);
+    
 }
 ?>
