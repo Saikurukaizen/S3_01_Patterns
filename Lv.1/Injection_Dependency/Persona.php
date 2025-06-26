@@ -13,7 +13,6 @@ class Persona{
     private Smartphone $smartphone;
     private LlavesCoche $llavesCoche;
     private TransportCard $tarjetaTransporte;
-    private array $inventario;
 
     public function __construct(
         Cartera $cartera, 
