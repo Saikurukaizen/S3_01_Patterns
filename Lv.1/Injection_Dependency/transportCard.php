@@ -1,11 +1,13 @@
 <?php
 declare(strict_types=1);
 
-class TransportCard{
+require_once 'Mochila.php';
 
-    public function usar(): void
+class TransportCard implements Mochila{
+
+    public function usar(): string
     {
-        echo 'Tengo la T-Mobilitat';
+        return 'Tengo la T-Mobilitat';
     } 
 }
 ?>

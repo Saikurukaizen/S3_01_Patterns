@@ -1,11 +1,13 @@
 <?php
 declare(strict_types=1);
 
-class Cartera{
+require_once 'Mochila.php';
+
+class Cartera implements Mochila{
 
     public function usar(): string
     {
-        echo 'Tengo la cartera';
+       return 'Tengo la cartera';
     }
 }
 ?>

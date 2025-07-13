@@ -1,11 +1,13 @@
 <?php
 declare(strict_types=1);
 
-class Smartphone{
+require_once 'Mochila.php';
 
-    public function usar(): void
+class Smartphone implements Mochila{
+
+    public function usar(): string
     {
-        echo 'Tengo mi móvil encima';
+        return 'Tengo mi móvil encima';
     }
 }
 ?>

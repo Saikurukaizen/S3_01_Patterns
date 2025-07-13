@@ -1,11 +1,13 @@
 <?php
 declare(strict_types=1);
 
-class LlavesCasa{
+require_once 'Mochila.php';
 
-    public function usar(): void
+class LlavesCasa implements Mochila{
+
+    public function usar(): string
     {
-        echo 'Tengo las llaves de casa';
+        return 'Tengo las llaves de casa';
     }
 }
 ?>
