@@ -7,8 +7,6 @@ namespace Lv3\Strategy;
 interface CarCouponInterface{
 
     public function generateCoupon(bool $isHighSeason, bool $isBigStock): string;
-    public function addSeasonDiscount(): float;
-    public function addStockDiscount(): float;
 }
 
 ?>

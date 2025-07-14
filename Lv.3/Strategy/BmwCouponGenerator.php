@@ -7,10 +7,9 @@ use Lv3\Strategy\CarCouponInterface;
 
 require_once 'CarCouponInterface.php';
 
-class MercedesCouponGenerator implements CarCouponInterface{
-    private int $seasonDiscount = 4;
-    private int $stockDiscount = 10;
-
+class BMWCouponGenerator implements CarCouponStrategy{
+    private int $seasonDiscount = 5;
+    private int $stockDiscount = 7;
 
     private function addSeasonDiscount(bool $isHighSeason): int
     {
